@@ -1,45 +1,47 @@
-# 🐍 Snake Game in Python
+# 🏓 Pong Game in Java
 
 ## 📌 Overview
-This is a simple **Snake Game** built using Python and the `turtle` graphics module. It is a beginner-friendly project created to understand basic game development concepts like movement, collision detection, and scoring.
+This is a simple **Pong Game** developed using Java and Swing. It is a beginner-level game development project created to understand GUI programming, game loops, and collision detection in Java.
 
 ---
 
 ## 🎮 Game Description
-In this game, the player controls a snake that moves around the screen. The objective is to eat the food that appears randomly. Each time the snake eats food, it grows longer and the score increases. The game ends if the snake hits the wall or itself.
+Pong is a classic arcade game where the player controls a paddle to hit a moving ball. The objective is to prevent the ball from passing your paddle while trying to score against the opponent (AI).
 
 ---
 
 ## 🛠️ Technologies Used
-- Python 3
-- Turtle Graphics Module
-- Random Module
-- Time Module
+- Java (JDK 8+)
+- Swing (Java GUI Library)
+- AWT (Abstract Window Toolkit)
 
 ---
 
 ## 🎯 Features
-- Smooth movement of snake using arrow keys
-- Random food generation on screen
+- Smooth ball movement using game loop (Timer)
+- Player-controlled paddle using keyboard (Up & Down keys)
+- Simple AI opponent paddle
+- Collision detection between ball and paddles
 - Score tracking system
-- Snake grows after eating food
-- Game reset on collision (wall or self)
-- Simple and clean interface
+- Restart of ball after scoring
 
 ---
 
 ## 🎮 Controls
-- ⬆️ Up Arrow → Move Up  
-- ⬇️ Down Arrow → Move Down  
-- ⬅️ Left Arrow → Move Left  
-- ➡️ Right Arrow → Move Right  
+- ⬆️ Up Arrow → Move paddle up  
+- ⬇️ Down Arrow → Move paddle down  
 
 ---
 
 ## ▶️ How to Run
 
-### Step 1: Install Python
-Make sure Python 3 is installed on your system.
+### Step 1: Save the file
+Save the code as:
 
-### Step 2: Save the File
-Save the program as:
+---
+
+### Step 2: Compile the program
+Open terminal or command prompt and run:
+
+```bash
+javac PongGame.java
